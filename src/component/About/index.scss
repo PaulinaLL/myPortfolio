@@ -1,7 +1,7 @@
 .tech {
   display: flex;
   justify-content: center;
-  //   align-content: space-between;
+  align-content: center;
   flex-wrap: wrap;
   padding: 20px;
   border: 1px solid red;
@@ -12,4 +12,12 @@
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+}
+
+.about {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
