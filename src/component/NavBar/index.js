@@ -9,7 +9,7 @@ export default function NavBar() {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#tech">TechStack</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#projects">Projects</a>
