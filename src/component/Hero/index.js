@@ -1,8 +1,8 @@
 import scss from "./index.scss";
 import React from "react";
+import { Spring } from "react-spring/renderprops";
 import NavBar from "../NavBar";
 import { Linkedin, Github } from "../../assets/socialIcons";
-import paulina from "../../assets/paulina.jpg";
 
 export default function Hero() {
   const info = {
@@ -14,25 +14,32 @@ export default function Hero() {
   return (
     <div className="hero" id="hero">
       <NavBar />
-      <img
-        src={paulina}
-        style={{ height: "25%", borderRadius: "20%" }}
-        alt="profile-pic"
-      ></img>
-      <div className="row">
-        <h1>I'm {info.name}</h1>
-        <div className="description">
-          I'm a {info.city} based {info.occupation}.
-        </div>
-        <div className="socialIcons">
-          <a href="//github.com/PaulinaLL">
-            <Github />
-          </a>
-          <a href="//linkedin.com/in/paulina-lukarska">
-            <Linkedin />
-          </a>
-        </div>
-      </div>
+
+      {/* <div className="row"> */}
+      <Spring
+        from={{ opacity: 0 }}
+        to={{ opacity: 1 }}
+        config={{ duration: 1500 }}
+      >
+        {(props) => (
+          <div style={props}>
+            <h1>I'm {info.name}</h1>
+            <div className="description">
+              I'm a {info.city} based {info.occupation}.
+            </div>
+
+            <div className="socialIcons">
+              <a href="//github.com/PaulinaLL">
+                <Github />
+              </a>
+              <a href="//linkedin.com/in/paulina-lukarska">
+                <Linkedin />
+              </a>
+            </div>
+          </div>
+        )}
+      </Spring>
     </div>
+    // </div>
   );
 }
