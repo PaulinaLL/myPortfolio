@@ -3,6 +3,7 @@ const iconHeight = 40;
 
 export const Linkedin = () => (
   <svg
+    fill="white"
     xmlns="http://www.w3.org/2000/svg"
     height={iconHeight}
     viewBox="0 0 448 512"
@@ -13,6 +14,7 @@ export const Linkedin = () => (
 
 export const Github = () => (
   <svg
+    fill="white"
     xmlns="http://www.w3.org/2000/svg"
     height={iconHeight}
     viewBox="0 0 496 512"
