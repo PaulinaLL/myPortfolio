@@ -4,7 +4,6 @@
   align-content: center;
   flex-wrap: wrap;
   padding: 20px;
-  border: 1px solid red;
 }
 
 .stackIcons {
@@ -20,4 +19,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+img {
+  margin: 10px;
 }
