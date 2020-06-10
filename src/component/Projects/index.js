@@ -68,7 +68,7 @@ export default class Projects extends React.Component {
             <img src={lotto} alt="lotto" style={{ height: "90%" }}></img>
             <div className="projectLinks">
               <a href="https://react-lotto-paulina.netlify.app/">View</a>
-              <a href="">Code</a>
+              <a href="https://github.com/PaulinaLL/react-lotto">Code</a>
             </div>
           </div>
           <div className="project">
@@ -77,7 +77,9 @@ export default class Projects extends React.Component {
               <a href="https://react-color-generator-paulina.netlify.app">
                 View
               </a>
-              <a href="">Code</a>
+              <a href="https://github.com/PaulinaLL/react-color-generator">
+                Code
+              </a>
             </div>
           </div>
         </Slider>
