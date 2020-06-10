@@ -14,7 +14,7 @@ export default class Projects extends React.Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 2,
       initialSlide: 0,
       responsive: [
@@ -46,7 +46,7 @@ export default class Projects extends React.Component {
     };
     return (
       <div className="projectsContainer" id="projects">
-        <h3>Projects</h3>
+        <h2>Projects</h2>
         <Slider {...settings}>
           <div className="project">
             <img src={dogs} alt="dogs" style={{ height: "90%" }}></img>
