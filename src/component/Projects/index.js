@@ -4,6 +4,7 @@ import lotto from "../../assets/Lotto.gif";
 import dogs from "../../assets/dogs.gif";
 import ball from "../../assets/ball.gif";
 import color from "../../assets/color.gif";
+import text from "../../assets/text.gif";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,6 +54,17 @@ export default class Projects extends React.Component {
             <div className="projectLinks">
               <a href="https://react-walk-a-dog-paulina.netlify.app">View</a>
               <a href="https://github.com/PaulinaLL/react-walk-a-dog">Code</a>
+            </div>
+          </div>
+          <div className="project">
+            <img src={text} alt="color" style={{ height: "90%" }}></img>
+            <div className="projectLinks">
+              <a href="https://react-interactive-text-paulina.netlify.app">
+                View
+              </a>
+              <a href="https://github.com/PaulinaLL/react-interactive-text">
+                Code
+              </a>
             </div>
           </div>
           <div className="project">
