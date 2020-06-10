@@ -1,5 +1,5 @@
 nav {
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%;
 
@@ -9,10 +9,12 @@ nav {
 ul {
   padding: 0px;
   display: flex;
+  margin: 0px;
 }
 
 li {
   padding: 5px;
+  margin: 5px;
 }
 
 a {
