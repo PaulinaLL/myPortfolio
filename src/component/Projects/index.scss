@@ -1,4 +1,28 @@
 .projectsContainer {
+  height: 90vh;
+  text-align: center;
+}
+
+.project {
+  margin: 10px;
+  height: 60vh;
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+
+  & a {
+    background-color: rgb(190, 194, 190);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  & img {
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 95%;
+  }
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: center;
 }
