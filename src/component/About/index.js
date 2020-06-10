@@ -21,7 +21,7 @@ export default function About() {
     <div className="about" id="about">
       <img
         src={paulina}
-        style={{ width: "30%", borderRadius: "50%" }}
+        style={{ width: "20%", borderRadius: "50%" }}
         alt="profile-pic"
       ></img>
       <p>
@@ -29,7 +29,7 @@ export default function About() {
         and hands-on mentality. Well organized, communicative and enthusiastic,
         happy to face new challenges.
       </p>
-      <h3>Tech Stack</h3>
+      <h2>Tech Stack</h2>
       <Spring
         from={{ opacity: 0 }}
         to={{ opacity: 1 }}
