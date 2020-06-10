@@ -5,6 +5,7 @@ import dogs from "../../assets/dogs.gif";
 import ball from "../../assets/ball.gif";
 import color from "../../assets/color.gif";
 import text from "../../assets/text.gif";
+import crypto from "../../assets/crypto.gif";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -52,17 +53,35 @@ export default class Projects extends React.Component {
           <div className="project">
             <img src={dogs} alt="dogs" style={{ height: "90%" }}></img>
             <div className="projectLinks">
-              <a href="https://react-walk-a-dog-paulina.netlify.app">View</a>
-              <a href="https://github.com/PaulinaLL/react-walk-a-dog">Code</a>
+              <a
+                href="https://react-walk-a-dog-paulina.netlify.app"
+                target="_blank"
+                rel="noreferrer noopener"
+              ></a>
+              <a
+                href="https://github.com/PaulinaLL/react-walk-a-dog"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code
+              </a>
             </div>
           </div>
           <div className="project">
             <img src={text} alt="color" style={{ height: "90%" }}></img>
             <div className="projectLinks">
-              <a href="https://react-interactive-text-paulina.netlify.app">
+              <a
+                href="https://react-interactive-text-paulina.netlify.app"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 View
               </a>
-              <a href="https://github.com/PaulinaLL/react-interactive-text">
+              <a
+                href="https://github.com/PaulinaLL/react-interactive-text"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Code
               </a>
             </div>
@@ -70,8 +89,18 @@ export default class Projects extends React.Component {
           <div className="project">
             <img src={ball} alt="ball" style={{ height: "90%" }}></img>
             <div className="projectLinks">
-              <a href="https://css-ball-animation-paulina.netlify.app">View</a>
-              <a href="https://github.com/PaulinaLL/CSS-animations-basketball">
+              <a
+                href="https://css-ball-animation-paulina.netlify.app"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                View
+              </a>
+              <a
+                href="https://github.com/PaulinaLL/CSS-animations-basketball"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Code
               </a>
             </div>
@@ -79,17 +108,50 @@ export default class Projects extends React.Component {
           <div className="project">
             <img src={lotto} alt="lotto" style={{ height: "90%" }}></img>
             <div className="projectLinks">
-              <a href="https://react-lotto-paulina.netlify.app/">View</a>
-              <a href="https://github.com/PaulinaLL/react-lotto">Code</a>
+              <a
+                href="https://react-lotto-paulina.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                View
+              </a>
+              <a
+                href="https://github.com/PaulinaLL/react-lotto"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="project">
+            <img src={crypto} alt="color" style={{ height: "90%" }}></img>
+            <div className="projectLinks">
+              <a href="">View</a>
+              <a
+                href="https://github.com/PaulinaLL/browser-fetch-data-crypto-currency-converter"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code
+              </a>
             </div>
           </div>
           <div className="project">
             <img src={color} alt="color" style={{ height: "90%" }}></img>
             <div className="projectLinks">
-              <a href="https://react-color-generator-paulina.netlify.app">
+              <a
+                href="https://react-color-generator-paulina.netlify.app"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 View
               </a>
-              <a href="https://github.com/PaulinaLL/react-color-generator">
+              <a
+                href="https://github.com/PaulinaLL/react-color-generator"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Code
               </a>
             </div>
