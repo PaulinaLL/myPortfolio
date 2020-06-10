@@ -1,7 +1,7 @@
 import scss from "./index.scss";
 import React from "react";
 import { Spring } from "react-spring/renderprops";
-import NavBar from "../NavBar";
+
 import { Linkedin, Github } from "../../assets/socialIcons";
 
 export default function Hero() {
@@ -12,9 +12,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="hero" id="hero">
-      <NavBar />
-
+    <div className="hero" id="home">
       {/* <div className="row"> */}
       <Spring
         from={{ opacity: 0 }}
