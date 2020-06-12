@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="footer">
-      <p>Copyrights 2020</p>
+      <p>Paulina Lukarska © 2020 </p>
     </div>
   );
 }
