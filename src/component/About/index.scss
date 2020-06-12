@@ -15,14 +15,18 @@
 
 .about {
   height: 100vh;
-  margin: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid red;
 }
 
 img {
-  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
