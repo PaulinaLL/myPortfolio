@@ -1,6 +1,6 @@
 import scss from "./index.scss";
 import React from "react";
-import lotto from "../../assets/Lotto.gif";
+import lotto from "../../assets/lotto.gif";
 import dogs from "../../assets/dogs.gif";
 import ball from "../../assets/ball.gif";
 import color from "../../assets/color.gif";
