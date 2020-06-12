@@ -5,10 +5,25 @@
   height: 100vh;
   flex-direction: column;
   text-align: center;
-  background-color: #eacece;
+  // background-color: #eacece;
   background-position: center;
   background-size: cover;
   color: white;
+  background: linear-gradient(130deg, #eacece, #eedeea, #3d4158);
+  background-size: 200% 200%;
+  animation: colorAnimation 10s ease infinite;
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
 }
 
 .hero h1 {
