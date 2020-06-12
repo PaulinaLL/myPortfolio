@@ -57,7 +57,9 @@ export default class Projects extends React.Component {
                 href="https://react-walk-a-dog-paulina.netlify.app"
                 target="_blank"
                 rel="noreferrer noopener"
-              ></a>
+              >
+                View
+              </a>
               <a
                 href="https://github.com/PaulinaLL/react-walk-a-dog"
                 target="_blank"
