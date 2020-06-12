@@ -10,19 +10,19 @@
   background-size: cover;
   color: white;
   background: linear-gradient(130deg, #eacece, #eedeea, #3d4158);
-  background-size: 200% 200%;
+  background-size: 200% 2500%;
   animation: colorAnimation 10s ease infinite;
 }
 
 @keyframes colorAnimation {
   0% {
-    background-position: 10% 0%;
+    background-position: 0% 0%;
   }
   50% {
     background-position: 91% 100%;
   }
   100% {
-    background-position: 10% 0%;
+    background-position: 0% 0%;
   }
 }
 
