@@ -24,7 +24,7 @@ export default function About() {
         style={{ width: "20%", borderRadius: "50%" }}
         alt="profile-pic"
       ></img>
-      <p>
+      <p class="aboutMe">
         I am a self-motivated and fast learning person, with an open personality
         and hands-on mentality. Well organized, communicative and enthusiastic,
         happy to face new challenges.
